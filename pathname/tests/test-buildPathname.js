@@ -1,7 +1,7 @@
 "use strict"
 
 var o = require("ospec")
-var buildPathname = require("../../pathname/build")
+var buildPathname = require("../build")
 
 o.spec("buildPathname", function() {
 	function test(prefix) {

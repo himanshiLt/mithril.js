@@ -7,7 +7,7 @@ if (typeof require !== "undefined") {
 	/* eslint-disable global-require */
 	callAsync = require("../../test-utils/callAsync")
 	o = require("ospec")
-	Promise = require("../../promise/polyfill")
+	Promise = require("../polyfill")
 	/* eslint-enable global-require */
 } else {
 	callAsync = typeof setImmediate === "function" ? setImmediate : setTimeout
